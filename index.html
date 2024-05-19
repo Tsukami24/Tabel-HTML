@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            text-align: center;
+        }
+        table {
+            width: 50%;
+        }
+        table,td, th {
+            border: 2px solid black;
+        }
+
+        th{
+            background-color: blueviolet;
+        }
+
+        
+
+    </style>
+</head>
+<body>
+    <div style="display: flex; justify-content: center;">
+        <table>
+            <tr>
+                <th rowspan="3">Day</th>
+                <th colspan="3">Class Schedule</th>
+            </tr>
+    
+            <tr>
+                <td colspan="2" style="background-color: blueviolet;">Schedule</td>
+                <td rowspan="2" style="background-color: blueviolet;">Subject</td>
+            </tr>
+
+            <tr>
+                <td style="background-color: blueviolet;">Begin</td>
+                <td style="background-color: blueviolet;">End</td>
+            </tr>
+
+            <tr>
+                <td rowspan="7">Monday</td>
+                <td>06.45</td>
+                <td>07.30</td>
+                <td>Upacara</td>
+            </tr>
+
+            <tr>
+                <td>07.30</td>
+                <td>09.45</td>
+                <td>DDG</td>
+            </tr>
+
+            <tr>
+                <td>09.45</td>
+                <td>10.30</td>
+                <td>PAI</td>
+            </tr>
+
+            <tr style="background-color: yellow;">
+                <td>10.30</td>
+                <td>10.50</td>
+                <td>Istirahat</td>
+            </tr>
+
+            <tr>
+                <td>10.50</td>
+                <td>12.20</td>
+                <td>PAI</td>
+            </tr>
+
+            <tr style="background-color: yellow;">
+                <td>12.20</td>
+                <td>12.40</td>
+                <td>Istirahat</td>
+            </tr>
+
+            <tr>
+                <td>12.40</td>
+                <td>15.30</td>
+                <td>B.Inggris</td>
+            </tr>
+
+            <tr>
+                <th colspan="4" style="height: 10px;"></th>
+            </tr>
+
+            <tr>
+                <td rowspan="6">Tuesday</td>
+                <td>06.45</td>
+                <td>07.30</td>
+                <td>Literasi</td>
+            </tr>
+
+            <tr>
+                <td>07.30</td>
+                <td>10.30</td>
+                <td>DDP</td>
+            </tr>
+
+            <tr style="background-color: yellow;">
+                <td>10.30</td>
+                <td>10.50</td>
+                <td>Istirahat</td>
+            </tr>
+
+            <tr>
+                <td>10.50</td>
+                <td>12.20</td>
+                <td>DDP</td>
+            </tr>
+
+            <tr style="background-color: yellow;">
+                <td>12.20</td>
+                <td>12.40</td>
+                <td>Istirahat</td>
+            </tr>
+
+            <tr>
+                <td>12.40</td>
+                <td>15.30</td>
+                <td>MTK</td>
+            </tr>
+
+            <tr>
+                <th colspan="4" style="height: 10px;"></th>
+            </tr>
+
+            <tr>
+                <td rowspan="7">Wednesday</td>
+                <td>06.45</td>
+                <td>07.30</td>
+                <td>Literasi</td>
+            </tr>
+
+            <tr>
+                <td>07.30</td>
+                <td>10.30</td>
+                <td>Informatika</td>
+            </tr>
+
+            <tr style="background-color: yellow;">
+                <td>10.30</td>
+                <td>10.50</td>
+                <td>Istirahat</td>
+            </tr>
+
+            <tr>
+                <td>10.50</td>
+                <td>12.20</td>
+                <td>Olahraga</td>
+            </tr>
+
+            <tr style="background-color: yellow;">
+                <td>12.20</td>
+                <td>12.40</td>
+                <td>Istirahat</td>
+            </tr>
+
+            <tr>
+                <td>12.40</td>
+                <td>13.25</td>
+                <td>Olahraga</td>
+            </tr>
+
+            <tr>
+                <td>13.25</td>
+                <td>15.30</td>
+                <td>Ipas</td>
+            </tr>
+
+            <tr>
+                <th colspan="4" style="height: 10px;"></th>
+            </tr>
+
+            <tr>
+                <td rowspan="6">Thursday</td>
+                <td>06.45</td>
+                <td>07.30</td>
+                <td>Literasi</td>
+            </tr>
+            
+            <tr>
+                <td>07.30</td>
+                <td>10.30</td>
+                <td>Progdas</td>
+            </tr>
+
+            <tr style="background-color: yellow;">
+                <td>10.30</td>
+                <td>10.50</td>
+                <td>Istirahat</td>
+            </tr>
+
+            <tr>
+                <td>10.50</td>
+                <td>12.20</td>
+                <td>Progdas</td>
+            </tr>
+
+            <tr style="background-color: yellow;">
+                <td>12.20</td>
+                <td>12.40</td>
+                <td>Istirahat</td>
+            </tr>
+
+            <tr>
+                <td>12.40</td>
+                <td>15.30</td>
+                <td>B.Indonesia</td>
+            </tr>
+
+            <tr>
+                <th colspan="4" style="height: 10px;"></th>
+            </tr>
+
+            <tr>
+                <td rowspan="8">Friday</td>
+                <td>06.45</td>
+                <td>07.30</td>
+                <td>ESQ</td>
+            </tr>
+
+            <tr>
+                <td>07.30</td>
+                <td>09.00</td>
+                <td>Pendidikan Pancasila</td>
+            </tr>
+
+            <tr>
+                <td>09.00</td>
+                <td>10.30</td>
+                <td>B.Sunda</td>
+            </tr>
+
+            <tr style="background-color: yellow;">
+                <td>10.30</td>
+                <td>10.50</td>
+                <td>Istirahat</td>
+            </tr>
+
+            <tr>
+                <td>10.50</td>
+                <td>11.35</td>
+                <td>Sejarah</td>
+            </tr>
+
+            <tr style="background-color: yellow;">
+                <td>11.35</td>
+                <td>13.00</td>
+                <td>Istirahat</td>
+            </tr>
+
+            <tr>
+                <td>13.00</td>
+                <td>13.45</td>
+                <td>Sejarah</td>
+            </tr>
+
+            <tr>
+                <td>13.45</td>
+                <td>15.05</td>
+                <td>Seni</td>
+            </tr>
+
+            <tr>
+                <th colspan="4" style="height: 10px;"></th>
+            </tr>
+
+            <tr>
+                <td rowspan="4">Saturday</td>
+                <td>06.45</td>
+                <td>07.30</td>
+                <td>Literasi</td>
+            </tr>
+
+            <tr>
+                <td>07.30</td>
+                <td>08.15</td>
+                <td>BK</td>
+            </tr>
+
+            <tr>
+                <td>08.15</td>
+                <td>09.00</td>
+                <td>-</td>
+            </tr>
+
+            <tr>
+                <td>09.30</td>
+                <td>10.30</td>
+                <td>P5</td>
+            </tr>
+
+        </table>
+    </div>
+
+</body>
+</html>
